@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Cards - Level:Normal</title>
+    <link rel="stylesheet" href="/CSS/design.css" />
+    <script src="/JavaScript/timer2.js"></script>
+    <script src="/JavaScript/change_img_normal.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topMenu topFont">
+            <a class="top" href="/myHTML/Level_normal.html"><h1 class="inline_1">Matching Cards : Normal</h1></a>
+            <img src="/Matching Cards (img)/playing-card.png" 
+            style="height: 80px; width: 80px; margin-top: 5px; margin-left: 10px; float: left;"
+            />  
+        <nav class="inline_2">
+            <ul>
+                <li class="nav_list"><a class="top" href="/myHTML/Mypage.html">홈</a></li>
+                <li class="nav_list"><a class="top" href="/myHTML/Level_easy.html">쉬움</a></li>
+                <li class="nav_list"><a class="top" href="/myHTML/Level_normal.html">보통</a></li>
+                <li class="nav_list"><a class="top" href="/myHTML/Level_hard.html">어려움</a></li>
+            </ul>
+        </nav>
+        </div>       
+    </header>
+    <div>           
+        <h2 class="inline_1">남은 시간 : <h2 id="timer2" class="inline_1"></h2></h2>          
+    </div>
+    <div>
+        <img id="img1" onclick="changeImg()" class="bigger" src="/Matching Cards (img)/tile.png" 
+        style="height: 200px; width: 200px; position: absolute; left: 400px; top: 200px"
+        />
+        <img id="img2" onclick="changeImg2()" class="bigger" src="/Matching Cards (img)/tile.png" 
+        style="height: 200px; width: 200px; position: absolute; left: 855px; top: 200px"
+        />
+        <img id="img3" onclick="changeImg3()" class="bigger" src="/Matching Cards (img)/tile.png" 
+        style="height: 200px; width: 200px; position: absolute; left: 400px; top: 540px"
+        />
+        <img id="img4" onclick="changeImg4()" class="bigger" src="/Matching Cards (img)/tile.png" 
+        style="height: 200px; width: 200px; position: absolute; left: 855px; top: 540px"
+        />
+        <img id="img5" onclick="changeImg5()" class="bigger" src="/Matching Cards (img)/tile.png" 
+        style="height: 200px; width: 200px; position: absolute; right: 400px; top: 200px"
+        />
+        <img id="img6" onclick="changeImg6()" class="bigger" src="/Matching Cards (img)/tile.png" 
+        style="height: 200px; width: 200px; position: absolute; right: 400px; top: 540px"
+        />
+    </div>
+</body>
+</html>

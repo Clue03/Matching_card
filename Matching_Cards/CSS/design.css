@@ -1,0 +1,78 @@
+/* 메인 페이지의 상단 메뉴 부분 디자인 */
+.topMenu {
+    background-color: rgb(84, 91, 102); 
+    width: 85875px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.topFont {
+    color: moccasin;
+    font-weight: bold;
+    font-size: medium;
+}
+
+ul {list-style-type: none; text-align: center;}
+
+.top {
+    text-align: center;
+    text-decoration: none;
+    color: navajowhite;
+}
+
+.nav_list {float: left; margin-left: 20px;}
+
+.inline_1 {display: inline-block; margin-left: 30px;}
+
+.inline_2 {display: inline-block;}
+
+
+/* 마우스 올렸을 때 실행되는 애니메이션 효과 */
+.bigger {
+    transition: all 0.2s linear;
+}
+.bigger:hover {
+    transform: scale(1.1);
+}
+
+
+/* 메인 사이트 난이도 글자 효과 */
+.easy {
+    text-decoration: none;
+    color: darkgreen;
+    position: absolute;
+    top: 560px;
+    left: 380px;
+}
+.easy:hover{
+    color: rgb(38, 173, 33);
+    text-decoration: underline;
+}
+
+.normal {
+    text-decoration: none;
+    color: goldenrod;
+    position: absolute;
+    top: 560px;
+    left: 900px;
+}
+.normal:hover{
+    color: rgb(255, 218, 10);
+    text-decoration: underline;
+}
+
+.hard {
+    text-decoration: none;
+    color: darkred;
+    position: absolute;
+    top: 560px;
+    right: 375px;
+}
+.hard:hover{
+    color: red;
+    text-decoration: underline;    
+}
+
+.card_back, card_front {
+    backface-visibility: hidden;
+}
